@@ -1,0 +1,39 @@
+body {
+    
+    font-family :Arial, Helvetica, sans-serif;
+    text-align: center;
+    background: url('./forest-bg.png');
+    
+    background-size: cover;
+    background-position: center;
+}
+#board{
+    width : 480px;
+    height: 480px;
+    margin : 0 auto;
+    /* background-color: green; */
+    display : flex;
+    flex-wrap: wrap;
+    background: url("./soil.png");
+    background-size: cover;
+    border : 3px solid white;
+    border-radius : 25px ;
+    overflow :hidden;
+}
+#board div {
+    width : 160px;
+    height : 160px;
+    background-image : url("./pipe.png");
+    background-size : cover;
+}
+#board div img {
+    /* all img tags inside tiles */
+    width: 85px;
+    height: 85px;
+
+    user-select: none;
+    -moz-user-select: none;
+    -webkit-user-drag: none;
+    -webkit-user-select: none;
+    -ms-user-select: none;
+}
